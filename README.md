@@ -1,4 +1,4 @@
-Actividad Formativa 3: Implementación y Evaluación de Filtros Digitales
+## Actividad Formativa 3: Implementación y Evaluación de Filtros Digitales
 
 Descripción del proyecto
 
@@ -6,7 +6,7 @@ Este proyecto tiene como finalidad diseñar, implementar y evaluar filtros digit
 
 Se implementaron tres tipos de filtros: pasa bajos, pasa altos y pasa bandas.
 
-##Objetivo
+## Objetivo
 
 Diseñar y evaluar filtros digitales Butterworth para identificar su efectividad en la selección y atenuación de diferentes componentes de frecuencia presentes en una señal con ruido.
 
