@@ -123,7 +123,7 @@ Evaluación de resultados
 
 ## Conclusión
 
-La implementación de filtros digitales permitió comprender cómo se pueden seleccionar determinadas frecuencias de una señal mediante técnicas de procesamiento digital.
+La implementación de filtros digitales permite comprender si se pueden seleccionar determinadas frecuencias de una señal mediante técnicas de procesamiento digital.
 
 Los resultados obtenidos demostraron que los filtros Butterworth son efectivos para atenuar componentes no deseadas y conservar aquellas que se encuentran dentro de su región de paso.
 
