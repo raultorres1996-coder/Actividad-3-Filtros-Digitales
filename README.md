@@ -10,7 +10,7 @@ Se implementan tres tipos de filtros digitales: pasa bajos, pasa altos y pasa ba
 ## Objetivo
 
 
-Diseñar y evaluar filtros digitales Butterworth para identificar su efectividad en la selección y atenuación de diferentes componentes de frecuencia presentes en una señal con ruido.
+Diseño y evaluación de  filtros digitales Butterworth para identificar su efectividad en la selección y atenuación de diferentes componentes de frecuencia presentes en una señal con ruido.
 
 ## Herramientas utilizadas
 
