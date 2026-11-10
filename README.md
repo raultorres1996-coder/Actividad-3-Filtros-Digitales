@@ -6,11 +6,11 @@ Este proyecto tiene como finalidad diseñar, implementar y evaluar filtros digit
 
 Se implementaron tres tipos de filtros: pasa bajos, pasa altos y pasa bandas.
 
-Objetivo
+##Objetivo
 
 Diseñar y evaluar filtros digitales Butterworth para identificar su efectividad en la selección y atenuación de diferentes componentes de frecuencia presentes en una señal con ruido.
 
-Herramientas utilizadas
+## Herramientas utilizadas
 
 Python
 
@@ -24,39 +24,33 @@ Matplotlib
 
 GitHub
 
-Desarrollo
+## Desarrollo
 
-1. Generación de la señal
+### 1. Generación de la señal
 
-Se generó una señal digital compuesta por tres frecuencias:
-
-5 Hz
-
-50 Hz
-
-120 Hz
+Se generó una señal digital compuesta por tres frecuencias: 5 Hz, 50 Hz y 120 Hz. Posteriormente, se agregó ruido aleatorio para simular interferencias en la señal.
 
 Se agregó ruido aleatorio para simular interferencias en la señal.
 
-2. Filtro pasa bajos
+### 2. Filtro pasa bajos
 
 Se diseñó un filtro Butterworth de cuarto orden con frecuencia de corte de 20 Hz.
 
 Este filtro permitió conservar principalmente la componente de 5 Hz y atenuar las frecuencias superiores.
 
-3. Filtro pasa altos
+### 3. Filtro pasa altos
 
 Se implementó un filtro Butterworth de cuarto orden con frecuencia de corte de 80 Hz.
 
 Este filtro permitió conservar principalmente la componente de 120 Hz y atenuar las frecuencias bajas.
 
-4. Filtro pasa bandas
+### 4. Filtro pasa bandas
 
 Se implementó un filtro Butterworth de cuarto orden con frecuencias de corte de 40 Hz y 60 Hz.
 
 Este filtro permitió conservar principalmente la componente de 50 Hz.
 
-Resultados obtenidos
+## Resultados obtenidos
 
 Señal
 
@@ -100,7 +94,7 @@ Pasa bandas
 
 Los resultados muestran que los filtros implementados conservaron principalmente las frecuencias deseadas y atenuaron las componentes que se encontraban fuera de su región de paso.
 
-Gráficas
+## Gráficas
 
 Filtro pasa bajos
 
@@ -126,7 +120,7 @@ Evaluación de resultados
 
 
 
-Conclusión
+## Conclusión
 
 La implementación de filtros digitales permitió comprender cómo se pueden seleccionar determinadas frecuencias de una señal mediante técnicas de procesamiento digital.
 
@@ -134,6 +128,6 @@ Los resultados obtenidos demostraron que los filtros Butterworth son efectivos p
 
 Además, el uso de Python permitió visualizar y analizar el comportamiento de los filtros mediante gráficas y cálculos numéricos.
 
-Código fuente
+## Código fuente
 
 El código completo de la simulación se encuentra disponible en el cuaderno de Jupyter incluido en este repositorio.
