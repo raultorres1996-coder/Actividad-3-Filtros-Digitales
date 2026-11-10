@@ -2,11 +2,13 @@
 
 Descripción del proyecto
 
-Este proyecto tiene como finalidad diseñar, implementar y evaluar filtros digitales utilizando Python, con el propósito de analizar el comportamiento de señales antes y después del filtrado.
+Este proyecto tiene como finalidad diseñar, implementar y evaluar filtros digitales utilizando Python, con el propósito de analizar el comportamiento de señales antes y después de aplicar diferentes técnicas de filtrado.
 
-Se implementaron tres tipos de filtros: pasa bajos, pasa altos y pasa bandas.
+
+Se implementan tres tipos de filtros digitales: pasa bajos, pasa altos y pasa bandas.
 
 ## Objetivo
+
 
 Diseñar y evaluar filtros digitales Butterworth para identificar su efectividad en la selección y atenuación de diferentes componentes de frecuencia presentes en una señal con ruido.
 
@@ -24,13 +26,12 @@ Matplotlib
 
 GitHub
 
+
 ## Desarrollo
 
 ### 1. Generación de la señal
 
 Se generó una señal digital compuesta por tres frecuencias: 5 Hz, 50 Hz y 120 Hz. Posteriormente, se agregó ruido aleatorio para simular interferencias en la señal.
-
-Se agregó ruido aleatorio para simular interferencias en la señal.
 
 ### 2. Filtro pasa bajos
 
